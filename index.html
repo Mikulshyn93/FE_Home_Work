@@ -5,29 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Template Page</title>
+    <title>Template Page</title>    
+    <style>
+        header{
+            color: gray;
+        }
+        a{
+            color: rgb(16, 224, 82)
+        }
+        p b{
+            color: violet;
+        }
+        div#Text1{
+            color: brown;
+        }
+        b+i{
+            color: purple;
+        }
+        h4~p{
+            color: green;
+        }
+        * .section{
+            color: goldenrod;
+        }
+        div.text_box>ul{
+            color:pink;
+        }
+        p.class1{
+            color: aqua;
+        }
+    
+        
+    </style>
 </head>
-
 <body>
-    <header class="header">
-        <div class="container">
-            <nav class="nav">
-                <ul class="menu">
-                    <li class="menu__item">
-                        <a href="/" class="menu__item-link">Home</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="./pages/page.html" class="menu__item-link">Page</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+    <header class="title">
+        <h1>Home_Work_3</h1>
     </header>
     <main>
         <section>
             <div class="container">
                 <!-- Content -->
-                <h1 class="title">Селектори</h1>
+                <h2 class="title">Селектори</h2>
                 <div>
                     <ul>
                         <li>.class-Класи застосовують, коли необхідно визначити стиль для одного або декількох елементів веб-сторінки. </li>
@@ -38,20 +57,37 @@
                 </div>
                 <h2>Кольори</h2>
                 <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.<b>GO Go Go</b></p>
                 </div>
-                <div id="Text1" style="color: aqua;">
+                <div id="Text1">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-                <div >
-                    <div class="class1">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                     <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit <b>Lorem, ipsum dolor.</b><i>Lorem, ipsum.</i>.</p>
                     </div>
-                    <div class="href">
-                    <a href="/#">Lorem, ipsum dolor sit amet consecte</a>
-                    </div>
-                </div>
-            </div>  
+                        <div>
+                            <h4>Lorem, ipsum.</h4>
+                            <p>Lorem, ipsum dolor.</p>
+                            <div>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                         </div>
+                         <div class="section">
+                            <p>Lorem ipsum dolor sit.</p>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                         </div>
+                         <div class="text_box">
+                            <ul>
+                                <li>Lorem ipsum dolor sit.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                         </div>
+                         <div> 
+                            <a href="/#" class="tag-1">Lorem ipsum dolor sit.</a>
+                            <a href="/#" class="tag-2">Lorem, ipsum dolor.</a>
+                             <a href="/#" class="tag-3">Lorem ipsum dolor sit.</a>
+                            </div>
+        </div>    
         </section>
     </main>
     <footer class="footer">
