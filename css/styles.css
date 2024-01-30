@@ -1,12 +1,21 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-img{
-max-width: 100%;
+img {
+  max-width: 100%;
 }
 
-.img_box{
-    min-height: 250px;
-    height: 280px;
+.img_box {
+  min-height: 250px;
+  height: 280px;
+}
+.inline-block_box {
+  background-color: grey;
+  box-sizing: border-box;
+  display: block;
+  width: 100px;
+  height: 150px;
+  padding: 0;
+  margin: 0;
 }
