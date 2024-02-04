@@ -1,0 +1,25 @@
+.inline-block {
+  display: inline-block;
+  border: 3px solid;
+  border-color: purple;
+  width: 200px;
+  height: 226px;
+}
+
+main {
+  text-align: center;
+}
+
+.inline-block-item {
+  margin-top: 20px;
+}
+
+img {
+  width: 130px;
+  height: 130px;
+}
+
+h3 {
+  width: 200px;
+  font-size: 18px;
+}
